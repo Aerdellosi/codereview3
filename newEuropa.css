@@ -1,0 +1,444 @@
+/********************************************************/
+/********************************************************/
+/*PLAYFAIR FONT*/
+
+
+
+@font-face {
+    font-family: 'playfaiR';
+    src: url('/fonts/playfair/playfairdisplaysc-black-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplaysc-blackitalic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplaysc-bold-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplaysc-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplaysc-italic-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair';
+    src: url('/fonts/playfair/playfairdisplaysc-regular-webfont.woff2') format('woff2'),
+         url('/fonts/playfair/playfairdisplaysc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/********************************************************/
+/********************************************************/
+/*GLACIAL FONT*/
+
+
+
+
+@font-face {
+    font-family: 'glacial';
+    src: url('/fonts/glacial/glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('/fonts/glacialglacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'glacial';
+    src: url('/fonts/glacial/glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('/fonts/glacial/glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'glacial';
+    src: url('/fonts/glacial/glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('/fonts/glacial/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/********************************************************/
+/********************************************************/
+/********************************************************/
+
+
+.flexRightHeader {
+    display: flex;
+    background-color: #09090f;
+    background-image: url(pics/picsFiltered/Black-Chalkboard-Background.png);
+    box-shadow: 5px 5px 10px black;
+}
+
+.flexColumnHeader {
+    display: flex;
+}
+
+form {
+    display: block;
+}
+
+.psychorderForm {
+    margin: 15px;
+    margin-top: 45px;
+    margin-right: 70px;
+    text-align: right;
+}
+
+.menuForm {
+    margin: 15px;
+    margin-top: 15px;
+    margin-right: 70px;
+    margin-bottom: 35px;
+}
+.displayFillHeader {
+    flex-grow: 3;
+    height: 100%;
+}
+
+.h1 {
+    margin: 70px;
+    color: #fa2020;
+    font-size: 42pt;
+    letter-spacing: 5px;
+    font-family: 'playfair', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.psychorderButton {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #474747;
+  color: #ff7373;
+  font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.psychorderButton:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.lowerHeaderButtons {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #474747;
+  color: #ff7373;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lowerHeaderButtons:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+body {
+    background-color: #191c21;
+    background-image: url(pics/picsFiltered/finished/black-and-white-squared-checkered-background-pattern-free-vector.png);
+}
+
+/********************************************************/
+/********************************************************/
+/*IMAGE CAROUSEL*/
+
+.images {
+    display: block;
+    height: 700px;
+    width: auto;
+    border-radius: 40px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+.carouselWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.flexRowMid {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.gridForEconomyPies {
+    margin-right: 100px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    row-gap: 30px;
+    column-gap: 30px;
+    background-color: #121212;
+    background-image: url(pics/picsFiltered/finished/floral.png);
+    background-size: cover;
+    height: 670px;
+    width: 700px;
+    border-radius: 40px;
+    justify-items: center;
+    justify-content: center;
+    border: 10px solid black;
+    justify-content: center;
+    align-content: center;
+    translate: 0px -50px;
+}
+
+.economyPie {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+}
+
+.figure {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border: 12px solid black;
+    border-radius: 20px;
+    margin: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.squidPie {
+    height: 100%;
+    width: auto;
+}
+
+.textEconomyPies {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-right: 100px;
+    background-color: black;
+    font-size: 24pt;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    font-family: 'playfair', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    translate: 0 45px;
+    z-index: 95;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+
+.premadeMenuDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.economyPie2 {
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.economyPie1 {
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.economyPie3 {
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.economyPie4 {
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.test {
+    z-index: 30;
+    background-color: #730000;
+    color: whitesmoke;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 7px;
+    text-align: center;
+    position: relative;
+    translate: 0px -38px;
+    display: block;
+    font-size: 15pt;
+}
+
+.economyPie1:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+.economyPie2:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+.economyPie3:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+.economyPie4:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+    cursor: pointer;
+}
+
+/********************************************************/
+/********************************************************/
+/*ORDER FORM*/
