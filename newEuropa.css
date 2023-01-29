@@ -291,6 +291,7 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 0;
+    translate: 0 -5px;
 }
 
 .carouselWrapper {
@@ -299,11 +300,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    margin-top: 20px;
+    margin-top: 0;
     width: 800px;
     margin-left: 50px;
     margin-right: 50px;
-    
 }
 
 .flexRowMid {
@@ -442,3 +442,86 @@ body {
 /********************************************************/
 /********************************************************/
 /*ORDER FORM*/
+
+.translateToDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: #050505;
+    margin: 0;
+    width: 1400px;
+    align-items: right;
+    justify-content: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+
+.translateTo {
+    color: white;
+    font-size: 24pt;
+    margin: 0;
+}
+
+.NEButton {
+    border: 0;
+    border-radius: 0.25rem;
+    background: #474747;
+    color: #ff7373;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 20px;
+
+}
+
+.TButton {
+    border: 0;
+    border-radius: 0.25rem;
+    background: #474747;
+    color: #ff7373;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.menu {
+    color: white;
+    background-color: #2e0000;
+    background-image: url(pics/picsFiltered/roman8.png);
+    font-size: 79pt;
+    margin: 0;
+    margin-top: 50px;
+    padding: 20px;
+    padding-left: 250px;
+    width: 1130px;
+    letter-spacing: 30px;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    border-top: 10px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.centerMenu {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
