@@ -171,7 +171,7 @@
                     <div class="toppingsDiv">
                         <p class="toppingsTitle menuOptionTitles">&nbsp&nbsp&nbsp&nbspToppings</p>
                         <div class="checkDiv">
-                            <label for="zebraCheck" class="label">Zebra Worm Shavings</label>
+                            <label for="zebraCheck" class="label">Fao-sao Shavings</label>
                             <input type="checkbox" id="zebraCheck" name="zebraCheck" class="checkbox">
                         </div>
                         <div class="checkDiv">
@@ -179,20 +179,24 @@
                             <input type="checkbox" id="nettlewebCheck" name="nettlewebCheck" class="checkbox">
                         </div>
                         <div class="checkDiv">
-                            <label for="greyCheck" class="label">Grey's Monkey Cap</label>
+                            <label for="greyCheck" class="label">Monkey Cap</label>
                             <input type="checkbox" id="greyCheck" name="greyCheck" class="checkbox">
                         </div>
                     </div>
                 </div>
-            <div class="calculatedPrices">
-                <button>How our prices are calculated</button>
-            </div>
-            <div class="submitDiv">
-                <p class="insantaneousEstimate">Instantaneous estimate: <span id="instEstimate"></span>
-                </p>
-                <button>Get quote</button>
-                <button>Order</button>
-                <button>Reset</button>
+            <div class="rowFlexSubmit">
+                <div class="calculatedPrices">
+                    <button class="calcPriceButton">How our prices are calculated</button>
+                    <p class="instantaneousEstimate">Instantaneous estimate: <span id="instEstimate">TEST</span>
+                    </p>
+                </div>
+                <div class="test3"></div>
+                <div class="submitDiv">
+                    
+                    <button class="button2 getQuoteButton"><span id="getQuote"></span>Get quote</button>
+                    <button class="button2 orderButton">Order</button>
+                    <button class="button2 resetButtonOrder">Reset</button>
+                </div>
             </div>
         </form>
         </div>

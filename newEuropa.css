@@ -546,7 +546,7 @@ body {
 
 .flexMenuForm {
     width: 1400px;
-    height: 680px;
+    height: 668px;
     background-color: #050505;
     margin: 0;
     border-left: 10px solid black;
@@ -564,9 +564,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 0;
-    width: 100%;
-    
 }
 
 .menuOptionTitles {
@@ -582,16 +579,8 @@ body {
 
 }
 
-.flexMenuForm {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-}
-
 .menuColumnsDiv {
     display: flex;
-    flex-direction: row;
-    padding: 0;
 }
 .saucesDiv {
     width: 300px;
@@ -644,6 +633,103 @@ body {
     font-size: 18pt;
 }
 
+.rowFlexSubmit {
+    display: flex;
+    align-items: center;
+}
+
+.submitDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instantaneousEstimate {
+    display: block;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    width: max-content;
+    margin: 0;
+    margin-right: 43px;
+    padding: 0.5rem 0.75rem;
+    background-color: #121212;
+    border-radius: 0.25rem;
+    margin-left: 12px;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.test3 {
+    width: 100%;
+    height: 1px;
+}
+.button2 {
+    display: block;
+    text-align: center;
+    border: 0;
+    border-radius: 0.25rem;
+    background: #474747;
+    color: #ff7373;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 30px;
+    margin-top: 13px;
+    width: max-content;
+}
+
+.calcPriceButton {
+    display: block;
+    text-align: center;
+    border: 0;
+    border-radius: 0.25rem;
+    background: #474747;
+    color: #ff7373;
+    font-family: 'glacial', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 13px;
+    width: 350px;
+}
+
+.resetButtonOrder {
+    margin-right: 30px;
+}
+
+.calculatedPrices {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.calcPriceButton:hover {
+    border-color: lightgray;
+    box-shadow: 0 0 10px whitesmoke;
+}
+
+.getQuoteButton {
+    background-color: #544a12;
+    color: whitesmoke;
+}
+
+.getQuoteButton:hover {
+    border-color: white;
+    box-shadow: 0 0 10px rgb(255, 218, 124);
+}
 /*
 .matrixGif {
     opacity: 0.88;
