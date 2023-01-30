@@ -248,6 +248,11 @@ form {
   transition: 0.2s;
 }
 
+.textDecNone {
+    text-decoration: none;
+    color: #ff7373;
+}
+
 .psychorderButton:hover {
     border-color: lightgray;
     box-shadow: 0 0 10px whitesmoke;
