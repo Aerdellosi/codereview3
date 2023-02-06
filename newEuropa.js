@@ -120,17 +120,17 @@ window.addEventListener("load", function() {
 
     
 
-    function carousel() {
+    function carousel(counterPricesParam, counterCarouselParam) {
         console.log("hello");
-        let counterPrices = 0;
-        let counterCarousel = 0;
+        let counterCarousel = counterCarouselParam;
+        let counterPrices = counterPricesParam;
         let imagesForCarousel = document.getElementsByClassName("images");
         console.log(counterPrices);
         counterCarousel++;
-        counterPrices++;
-        if (counterPrices === 3) {
-            const menuReference = new MenuPrices;
-            const menuDynamic = new MenuPrices;
+        counterPrices = counterPrices + 1;
+        const menuReference = new MenuPrices;
+        const menuDynamic = new MenuPrices;
+        if (counterPrices === 3) {    
             menuDynamic.updateDynamicMenu(menuReference);
             document.getElementsByClassName("saucesRhodium").innerText = menuDynamic.sauces.rhodium;
             counterPrices = 0;
@@ -151,7 +151,12 @@ window.addEventListener("load", function() {
         
         
     }
-    setTimeout(carousel(), 100); // Change image every 4.7 seconds
+    
+    // for (let i = 0; i < 48; i++)
+    
+    // let counterPrices1 = 0;
+    // let counterCarousel1 = 0;
+    // setInterval(() => {carousel(counterPrices1, counterCarousel1)}, 100); // Change image every 4.7 seconds
     
 
     window.addEventListener("load", function() {
@@ -193,27 +198,37 @@ window.addEventListener("load", function() {
 
     //UI Logic
     const orderForm = document.getElementById("orderForm");
+    const getQuote = this.document.getElementById("getQuote");
     orderForm.addEventListener("submit", e => {
         e.preventDefault();
         const arrayOfBoxValues = document.getElementsByClassName("checkbox");
         const checkedValues = filterForChecked(arrayOfBoxValues);
-        const sumBTC = calculateTotalSum(checkedValues);
-        console.log(sumBTC);
+        let sumBTC = calculateTotalSum(checkedValues);
+        getQuote.innerText = `${sumBTC} BTC `;
+        sumBTC = 0;
         
 
 
         //Business Logic
 
-        function roundFloatTo3Dec(float) {
-            const roundedFloat = Math.round(float * 100) / 100;
-            return roundedFloat;
-        }
+        // function roundFloatTo3Dec(float) {
+        //     const roundedFloat = Math.round(float * 100) / 100;
+        //     return roundedFloat;
+        // }
 
+        // function calculateTotalSum(arrayToSum) {
+        //     arrayToSum.forEach(constantValue => {
+        //         sum = sum + (parseFloat(constantValue) * ((Math.random() * 9) + 1));
+        //     })
+        //     sum = roundFloatTo3Dec(sum);
+        //     return sum;
+        // }
         function calculateTotalSum(arrayToSum) {
+            let sum = 0;
             arrayToSum.forEach(constantValue => {
-                sum = sum + (parseFloat(constantValue) * ((Math.random() * 9) + 1));
+                sum = sum + (parseFloat(constantValue));
             })
-            sum = roundFloatTo3Dec(sum);
+            // sum = roundFloatTo3Dec(sum);
             return sum;
         }
 
@@ -228,6 +243,7 @@ window.addEventListener("load", function() {
         }
 
     });
+
 
     //console.log(calculateTotalSum(array));
 

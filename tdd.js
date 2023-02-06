@@ -60,22 +60,22 @@
 // Code:
 // Expected output:
 
-function roundFloatTo3Dec(float) {
-    const roundedFloat = Math.round(float * 100) / 100;
-    return roundedFloat;
-}
+// function roundFloatTo3Dec(float) {
+//     const roundedFloat = Math.round(float * 100) / 100;
+//     return roundedFloat;
+// }
 
-const A = 1.07
-const B = 0.99
-const C = 12.3
-const array = [A, B, C];
+// const A = 1.07
+// const B = 0.99
+// const C = 12.3
+// const array = [A, B, C];
 
-function calculateTotalSum(arrayToSum) {
-    array.forEach(constantValue => {
-        sum = constantValue * ((Math.random() * 9) + 1);
-    })
-    sum = roundFloatTo3Dec(sum);
-    return sum;
-}
+// function calculateTotalSum(arrayToSum) {
+//     array.forEach(constantValue => {
+//         sum = constantValue * ((Math.random() * 9) + 1);
+//     })
+//     sum = roundFloatTo3Dec(sum);
+//     return sum;
+// }
 
-console.log(calculateTotalSum(array));
+// console.log(calculateTotalSum(array));
