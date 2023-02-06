@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="/newEuropa.js"></script>
+    <script src="/tdd.js"></script>
+
     <link rel="stylesheet" href="/newEuropa.css" />
   </head>
   <body>
@@ -95,107 +97,107 @@
         </div>
       </div>
       <div class="centerMenuForm">
-        <form>
+        <form id="orderForm">
             <div class="flexMenuForm">
             <!--<img src="pics/picsFiltered/finished/matrix_rain.gif" class="matrixGif">-->
                 <div class="menuColumnsDiv">
                     <div class="saucesDiv">
                         <p class="saucesTitle menuOptionTitles">&nbsp&nbsp&nbsp&nbspSauces</p>
                         <div class="checkDiv">
-                            <label for="rhodiumCheck" class="label">Rhodium</label>
-                            <input type="checkbox" id="rhodiumCheck" name="rhodiumCheck" class="checkbox">
+                            <label for="rhodiumCheck" class="label clickCheck"><span class="saucesReassign"></span> Rhodium</label>
+                            <input value="1.5" type="checkbox" id="rhodiumCheck" name="rhodiumCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="palladiumCheck" class="label">Palladium</label>
-                            <input type="checkbox" id="palladiumCheck" name="palladiumCheck" class="checkbox">
+                            <label for="palladiumCheck" class="label clickCheck">Palladium</label>
+                            <input value="1.79" type="checkbox" id="palladiumCheck" name="palladiumCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="goldCheck" class="label">Gold</label>
-                            <input type="checkbox" id="goldCheck" name="goldCheck" class="checkbox">
+                            <label for="goldCheck" class="label clickCheck">Gold</label>
+                            <input value="1.21" type="checkbox" id="goldCheck" name="goldCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="eridiumCheck" class="label">Eridium</label>
-                            <input type="checkbox" id="eridiumCheck" name="eridiumCheck" class="checkbox">
+                            <label for="eridiumCheck" class="label clickCheck">Eridium</label>
+                            <input value="1.99" type="checkbox" id="eridiumCheck" name="eridiumCheck" class="checkbox clickCheck">
                         </div>
                     </div>
                     <div class="cheesesDiv">
                         <p class="cheesesTitle menuOptionTitles">&nbsp&nbsp&nbsp&nbspCheeses</p>
                         <div class="checkDiv">
-                            <label for="diamondsCheck" class="label">Diamonds</label>
-                            <input type="checkbox" id="diamondsCheck" name="diamondsCheck" class="checkbox">
+                            <label for="diamondsCheck" class="label clickCheck">Diamonds</label>
+                            <input value="1.12" type="checkbox" id="diamondsCheck" name="diamondsCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="emeraldsCheck" class="label">Emeralds</label>
-                            <input type="checkbox" id="emeraldsCheck" name="emeraldsCheck" class="checkbox">
+                            <label for="emeraldsCheck" class="label clickCheck">Emeralds</label>
+                            <input value="1.01" type="checkbox" id="emeraldsCheck" name="emeraldsCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="pDiamondsCheck" class="label">Pink Diamonds</label>
-                            <input type="checkbox" id="pDiamondsCheck" name="pDiamondsCheck" class="checkbox">
+                            <label for="pDiamondsCheck" class="label clickCheck">Pink Diamonds</label>
+                            <input value="1.2" type="checkbox" id="pDiamondsCheck" name="pDiamondsCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="taaffeiteCheck" class="label">Taaffeite</label>
-                            <input type="checkbox" id="taaffeiteCheck" name="taaffeiteCheck" class="checkbox">
+                            <label for="taaffeiteCheck" class="label clickCheck">Taaffeite</label>
+                            <input value="1.9" type="checkbox" id="taaffeiteCheck" name="taaffeiteCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="painiteCheck" class="label">Painite</label>
-                            <input type="checkbox" id="painiteCheck" name="painiteCheck" class="checkbox">
+                            <label for="painiteCheck" class="label clickCheck">Painite</label>
+                            <input value="1.79" type="checkbox" id="painiteCheck" name="painiteCheck" class="checkbox clickCheck">
                         </div>
                     </div>
                     <div class="organicsDiv">
                         <p class="organicsTitle menuOptionTitles">&nbsp&nbsp&nbsp&nbspOrganics</p>
                         <div class="checkDiv">
-                            <label for="anthrorodentiaCheck" class="label">Anthrorodentia</label>
-                            <input type="checkbox" id="anthrorodentiaCheck" name="anthrorodentiaCheck" class="checkbox">
+                            <label for="anthrorodentiaCheck" class="label clickCheck">Anthrorodentia</label>
+                            <input value="9.4" type="checkbox" id="anthrorodentiaCheck" name="anthrorodentiaCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="koaladroppCheck" class="label">Koaladr&#246pp</label>
-                            <input type="checkbox" id="koaladroppCheck" name="koaladroppCheck" class="checkbox">
+                            <label for="koaladroppCheck" class="label clickCheck">Koaladr&#246pp</label>
+                            <input value="2.1" type="checkbox" id="koaladroppCheck" name="koaladroppCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="lumberingCheck" class="label">Lumbering Gecko</label>
-                            <input type="checkbox" id="lumberingCheck" name="lumberingCheck" class="checkbox">
+                            <label for="lumberingCheck" class="label clickCheck">Lumbering Gecko</label>
+                            <input value="1.0" type="checkbox" id="lumberingCheck" name="lumberingCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="spincattleCheck" class="label">Spincattle</label>
-                            <input type="checkbox" id="spincattleCheck" name="spincattleCheck" class="checkbox">
+                            <label for="spincattleCheck" class="label clickCheck">Spincattle</label>
+                            <input value="1.2" type="checkbox" id="spincattleCheck" name="spincattleCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="kuslolmCheck" class="label">Kuslolm</label>
-                            <input type="checkbox" id="kuslolmCheck" name="kuslolmCheck" class="checkbox">
+                            <label for="kuslolmCheck" class="label clickCheck">Kuslolm</label>
+                            <input value="1.212" type="checkbox" id="kuslolmCheck" name="kuslolmCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="senpaiCheck" class="label">Senpai Sauce</label>
-                            <input type="checkbox" id="senpaiCheck" name="senpaiCheck" class="checkbox">
+                            <label for="senpaiCheck" class="label clickCheck">Senpai Sauce</label>
+                            <input value="2.34" type="checkbox" id="senpaiCheck" name="senpaiCheck" class="checkbox clickCheck">
                         </div>
                     </div>
                     <div class="toppingsDiv">
                         <p class="toppingsTitle menuOptionTitles">&nbsp&nbsp&nbsp&nbspToppings</p>
                         <div class="checkDiv">
-                            <label for="zebraCheck" class="label">Fao-sao Shavings</label>
-                            <input type="checkbox" id="zebraCheck" name="zebraCheck" class="checkbox">
+                            <label for="zebraCheck" class="label clickCheck">Fao-sao Shavings</label>
+                            <input value="1.8" type="checkbox" id="zebraCheck" name="zebraCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="nettlewebCheck" class="label">Nettleweb</label>
-                            <input type="checkbox" id="nettlewebCheck" name="nettlewebCheck" class="checkbox">
+                            <label for="nettlewebCheck" class="label clickCheck">Nettleweb</label>
+                            <input value="1.9" type="checkbox" id="nettlewebCheck" name="nettlewebCheck" class="checkbox clickCheck">
                         </div>
                         <div class="checkDiv">
-                            <label for="greyCheck" class="label">Monkey Cap</label>
-                            <input type="checkbox" id="greyCheck" name="greyCheck" class="checkbox">
+                            <label for="greyCheck" class="label clickCheck">Monkey Cap</label>
+                            <input value="1.101" type="checkbox" id="greyCheck" name="greyCheck" class="checkbox clickCheck">
                         </div>
                     </div>
                 </div>
             <div class="rowFlexSubmit">
                 <div class="calculatedPrices">
                     <button class="calcPriceButton">How our prices are calculated</button>
-                    <p class="instantaneousEstimate">Instantaneous estimate: <span id="instEstimate">TEST</span>
+                    <p class="instantaneousEstimate">Instantaneous estimate: <span id="instEstimate"></span>
                     </p>
                 </div>
                 <div class="test3"></div>
                 <div class="submitDiv">
                     
                     <button class="button2 getQuoteButton"><span id="getQuote"></span>Get quote</button>
-                    <button class="button2 orderButton">Order</button>
-                    <button class="button2 resetButtonOrder">Reset</button>
+                    <button type="submit" class="button2 orderButton">Order</button>
+                    <button type="reset" class="button2 resetButtonOrder">Reset</button>
                 </div>
             </div>
         </form>
